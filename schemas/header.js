@@ -1,20 +1,20 @@
 import icon from 'react-icons/lib/md/local-movies'
 
 export default {
-  name: 'plans',
-  title: 'Plans',
+  name: 'header',
+  title: 'Header',
   type: 'object',
   icon,
   fields: [
     {
-      name: 'label',
+      name: 'title',
+      title: 'title',
       type: 'string'
     },
     {
-      name: 'plans',
-      title: 'Plans',
-      type: 'array',
-      of: [{type: "plan"}]
+      name: 'level',
+      title: 'Level',
+      type: 'number'
     }
   ]
 }

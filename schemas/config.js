@@ -1,8 +1,8 @@
-import icon from 'react-icons/lib/md/local-movies'
+import icon from 'react-icons/lib/md/build'
 
 export default {
-  name: 'component',
-  title: 'Component',
+  name: 'config',
+  title: 'Config',
   type: 'document',
   icon,
   fields: [

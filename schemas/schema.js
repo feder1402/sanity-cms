@@ -5,8 +5,10 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // We import object and document schemas
 import card from './card'
-import component from './component'
+import config from './config'
+import header from './header'
 import plans from './plans'
+import plan from './plan'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -18,7 +20,9 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     card,
-    component,
+    config,
+    header,
+    plan,
     plans
   ])
 })
