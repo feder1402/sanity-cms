@@ -7,8 +7,9 @@ export default {
   icon,
   fields: [
     {
-      name: 'label',
-      type: 'string'
+      name: 'pfid',
+      title: 'PFID',
+      type: 'number'
     },
     {
       name: 'plans',

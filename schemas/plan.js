@@ -11,6 +11,16 @@ export default {
       type: 'string'
     },
     {
+      name: 'pfid',
+      title: 'Pfid',
+      type: 'number'
+    },
+    {
+      name: 'text',
+      type: 'array',
+      of: [{type: 'block'}]
+    },
+    {
       name: 'description',
       type: 'string'
     }

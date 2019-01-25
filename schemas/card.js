@@ -22,7 +22,7 @@ export default {
       name: 'content',
       title: 'Content',
       type: 'array',
-      of: [{type: "plans"}, {type: "header"}]
+      of: [{type: "block"}, {type: "header"}, {type: "plans"}]
     }
   ],
   preview: {
