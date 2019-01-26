@@ -1,6 +1,5 @@
 import React from 'react'
 import icon from 'react-icons/lib/md/local-movies'
-import TitleComp from '../components/title.js'
 
 export default {
   name: 'card',
@@ -21,22 +20,7 @@ export default {
     {
       name: 'content',
       title: 'Content',
-      type: 'array',
-      of: [{type: "block"}, {type: "header"}, {type: "plans"}]
+      type: 'content'
     }
-  ],
-  preview: {
-    select: {
-      title: 'title'
-    },
-    prepare(selection) {
-      const {title} = selection
-
-      return {
-        title: 'Title: ' + title,
-        subtitle: 'Subtitle'
-      }
-    },
-    component: TitleComp
-  }
+  ]
 }

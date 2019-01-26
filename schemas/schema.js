@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // We import object and document schemas
 import card from './card'
 import config from './config'
+import content from './content'
 import header from './header'
 import plans from './plans'
 import plan from './plan'
@@ -21,6 +22,7 @@ export default createSchema({
     // in the studio.
     card,
     config,
+    content,
     header,
     plan,
     plans

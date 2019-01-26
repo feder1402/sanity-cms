@@ -16,6 +16,11 @@ export default {
       type: 'number'
     },
     {
+      name: 'default',
+      title: 'Default plan?',
+      type: 'boolean'
+    },    
+    {
       name: 'text',
       type: 'array',
       of: [{type: 'block'}]
