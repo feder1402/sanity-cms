@@ -3,6 +3,9 @@
   "project": {
     "name": "hallmarq"
   },
+  "paths": {
+    "source": "./src"
+  },
   "api": {
     "projectId": "s28bingf",
     "dataset": "production"
